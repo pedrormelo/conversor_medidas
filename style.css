@@ -1,3 +1,7 @@
+body{
+    margin: 0;
+}
+
 header {
     background-color: #f1f1f1;
     padding: 20px;
@@ -55,6 +59,8 @@ button:hover {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 24px;
     font-weight: medium;
+    text-align: center;
+    padding-top: 20px;
 }
 
 #resultado {

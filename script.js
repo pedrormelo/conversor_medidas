@@ -3,7 +3,7 @@ const form = document.querySelector('form');
 const input = document.querySelector('#valor1');
 const select1 = document.querySelector('#unidade1');
 const select2 = document.querySelector('#unidade2');
-const button = document.querySelector('button');
+const button = document.querySelector('#converte');
 
 // Define as proporções para cada unidade de medida em relação aos metros
 const proporcoes = {
