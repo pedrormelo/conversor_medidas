@@ -84,7 +84,7 @@ input[type=number]::-webkit-inner-spin-button {
     outline: 2px solid #f35a83;
 }
 
-.input-field .btn {
+.input-field .conv-btn {
     cursor: pointer;
 
     background-color: #fc8c9c;
@@ -95,7 +95,7 @@ input[type=number]::-webkit-inner-spin-button {
     transition: 0.2s;
 }
 
-.input-field .btn:hover {
+.input-field .conv-btn:hover {
     background-color: #da7283;
     color: #ffff;
 }
@@ -120,11 +120,18 @@ button {
 button:hover {
     background-color: #da7283;
     
-    transform: scale(1.1);
 }
 
 #second-nav .btn-nav{
     padding: 10px 20px;
+
+    /* margin: 10px; */
+}
+
+.btn-nav:hover{
+    padding: 10px 20px;
+
+    transform: scale(1.1);
 
     /* margin: 10px; */
 }
