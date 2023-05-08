@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Conversor</title>
+
+        <link
+            rel="shortcut icon"
+            href="assets/logoconv.png"
+            type="image/x-icon"
+        />
+        <link rel="stylesheet" href="assets/styles.css" />
+    </head>
+
+    <body>
+        <div class="container">
+            <header class="nav-header">
+                <nav id="main-nav">
+                    <ul>
+                        <li>
+                            <button class="nav-button" id="nav-toggle">
+                                &#9776;
+                            </button>
+                        </li>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li>
+                            <a href="medidas_distancia.html">Comprimento</a>
+                        </li>
+                        <li><a href="medidas_peso.html">Peso</a></li>
+                        <li>
+                            <a href="medidas_temperatura.html">Temperatura</a>
+                        </li>
+                    </ul>
+                </nav>
+                <nav id="second-nav">
+                    <ul>
+                        <li><a href="about.html">Sobre</a></li>
+                        <li><button class="btn-nav">Spotify</button></li>
+                        <li><a href="apoie.html">Apoie</a></li>
+                        <li><a href="discord.html">Discord</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <form class="form-convert">
+                <header class="form-header">
+                    <img src="assets/logoconv.png" class="logo" alt="convr" />
+                    <h1>Conversor</h1>
+                </header>
+
+                <div class="input-field">
+                    <label for="text">Valor:</label>
+                    <input
+                        name="value_entry"
+                        id="temperature"
+                        type="number"
+                        required
+                    />
+                </div>
+
+                <div class="input-field">
+                    <label for="unit-entry">Temperatura:</label>
+                    <select id="temperature_one" name="temp1">
+                        <option>Selecione uma medida de temperatura</option>
+                        <option value="celsius">Celsius</option>
+                        <option value="kelvin">Kelvin</option>
+                        <option value="fahrenheit">Fahrenheit</option>
+                    </select>
+                </div>
+
+                <div class="input-field">
+                    <label for="unit-entry">Converter para:</label>
+                    <select id="temperature_two" name="temp2">
+                        <option>Selecione uma medida</option>
+                        <option value="celsius">Celsius</option>
+                        <option value="kelvin">Kelvin</option>
+                        <option value="fahrenheit">Fahrenheit</option>
+                    </select>
+                </div>
+
+                <div class="input-field">
+                    <label for="result">Resultado:</label>
+                    <output id="result" name="resultado"></output>
+                </div>
+
+                <div class="input-field">
+                    <button class="btn" type="submit" id="convert">
+                        Converter
+                    </button>
+                </div>
+            </form>
+
+            <script src="assets/js/script_temperatura.js"></script>
+            <script src="assets/js/nav.js"></script>
+        </div>
+    </body>
+</html>

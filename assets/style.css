@@ -7,6 +7,10 @@ header {
     padding: 20px;
 }
 
+.form-convert .form-header {
+    background-color: #fff;
+}
+
 form {
     border: 1px solid #ccc;
     border-radius: 10px;
@@ -31,13 +35,17 @@ input[type="number"], select {
 }
 
 button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px;
-    border: none;
-    border-radius: 4px;
     cursor: pointer;
 
+    background-color: #fc7434;
+    color: white;
+    
+    padding: 10px;
+
+    border: none;
+    border-radius: 4px;
+
+    transition: 0.2s;
 }
 
 .butao {
@@ -47,7 +55,9 @@ button {
 }
 
 button:hover {
-    background-color: #3e8e41;
+    background-color: #fc5f5f;
+    color: white;
+
 }
 
 .field {
@@ -55,13 +65,6 @@ button:hover {
     margin-bottom: 10px;
 }
 
-.titulo {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 24px;
-    font-weight: medium;
-    text-align: center;
-    padding-top: 20px;
-}
 
 #resultado {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -105,3 +108,13 @@ nav a:hover {
     display: none;
   }
   
+.logo {
+    width: 8%;
+    height: auto;
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}

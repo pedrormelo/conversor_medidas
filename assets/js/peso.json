@@ -1,0 +1,9 @@
+{
+    "pesos": [
+        {"nome_medida":"kg", "valor_medida":1},
+        {"nome_medida":"gramas", "valor_medida":1000},
+        {"nome_medida":"mg", "valor_medida":1000000},
+        {"nome_medida":"lb", "valor_medida": 2.20},
+        {"nome_medida":"toneladas", "valor_medida":0.001}
+    ]
+}

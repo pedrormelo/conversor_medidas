@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    color: #333;
+    
+    font-family: 'Comfortaa', cursive;
+
+    background-image: url("https://static.vecteezy.com/ti/vetor-gratis/p3/5298806-sem-costura-padrao-de-cartoon-gato-ilustracao-design-em-fundo-roxo-gratis-vetor.jpg");
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+
+}
+
+.form-convert {
+    width: 400px;
+
+    padding: 20px;
+    margin: auto;
+    margin-top: 35px;
+
+    background-color: #ffff;
+
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.form-convert .form-header {
+    width: 100%;
+
+    padding-inline: 10px;
+    padding-bottom: 10px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.form-convert .form-header .logo {
+    width: 8%;
+    height: 8%;
+
+    margin: 3px;
+}
+
+.form-convert .input-field {
+    width: 100%;
+
+    margin-top: 15px;
+}
+
+.input-field label {
+    font-size: 16px;
+}
+
+.input-field input,
+.input-field select,
+.input-field button {
+    width: 100%;
+    height: 35px;
+
+    margin-top: 6px;
+    padding: 10px;
+
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.input-field input:focus,
+.input-field select:focus {
+    outline: 2px solid #f35a83;
+}
+
+.input-field .btn {
+    cursor: pointer;
+
+    background-color: #fc8c9c;
+    color: #ffffff;
+
+    margin-top: 15px;
+
+    transition: 0.2s;
+}
+
+.input-field .btn:hover {
+    background-color: #da7283;
+    color: #ffff;
+}
+
+button {
+    cursor: pointer;
+
+    font-family: 'Comfortaa', cursive;
+    font-size: 16px;
+
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+
+    background-color: #fc8c9c;
+    color: #ffff;
+
+    border: 1px solid #f791a2;
+    border-radius: 8px;
+
+    transition: 0.2s;
+}
+
+button:hover {
+    background-color: #da7283;
+    
+    transform: scale(1.1);
+}
+
+#second-nav .btn-nav{
+    padding: 10px 20px;
+
+    /* margin: 10px; */
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+
+    transform: translateX(0);
+
+
+    /* transition: 0.3s ease-in-out; */
+}
+
+#main-nav {
+    padding: 14px;
+
+    background-color: #ffff;
+}
+
+nav #main-nav .nav-button {
+    display: inline-block;
+
+    text-decoration: none;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+
+    background-color: #fc8c9c;
+    color: #ffff;
+
+    border: 1px solid #f791a2;
+    border-radius: 8px;
+
+    transition: 0.2s;
+}
+
+#nav-toggle {
+    cursor: pointer;
+
+    height: 35px;
+    width: 35px;
+
+    background-color: #fc8c9c;
+    color: #ffff;
+
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+    transition: 0.2s;
+}
+
+#nav-toggle:hover {
+    background-color: #da7283;
+    color: white;
+
+}
+
+#second-nav {
+    max-height: 0;
+
+    overflow: hidden;
+    background-color: #f1f1f1;
+
+    transform: rotateY(0);
+    transition: 0.3s ease-in-out;
+}
+  
+#second-nav.active {
+    max-height: 200px; /* altura máxima que você quer que o elemento alcance */
+
+    padding: 10px;
+
+    background-color: #f1f1f1;
+    
+}
+
+
+nav ul {
+    list-style: none;
+
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+
+    margin: 8px;
+}
+
+nav a {
+    display: inline-block;
+
+    padding: 10px 20px;
+
+    text-decoration: none;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+
+    background-color: #fc8c9c;
+    color: #ffff;
+
+    border: 1px solid #f791a2;
+    border-radius: 8px;
+
+    transition: 0.2s;
+}
+
+nav a:hover,
+.nav-button:hover {
+    background-color: #da7283;
+    
+    transform: scale(1.1);
+}
+
+
+#vito {
+    width: 100%;
+
+
+    display: flex;
+    justify-content: center;
+}
+
+#vito img {
+    height: 300px;
+}
+
+.d-widget {
+    display: flex;
+    justify-content: left;
+
+    padding: 20px;
+    margin-left: 20px;
+}
+
+.btn-nightmode {
+    height: 35px;
+    width: 35px;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 100,
+  'GRAD' 0,
+  'opsz' 48
+}
