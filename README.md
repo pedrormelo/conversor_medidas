@@ -2,6 +2,8 @@
 
 Este é um projeto de conversão de unidades de medidas, utilizando HTML, CSS e JavaScript.
 
+https://pedrormelo.github.io/conversor_medidas/index.html
+
 # Funcionalidades
 
 Conversão de unidades de medida de comprimento, peso e temperatura.
